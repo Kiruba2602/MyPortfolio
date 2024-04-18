@@ -90,9 +90,8 @@ button:hover {
 }
 
 .Logo {
-  font-size: 32px;
   letter-spacing: 2px;
-  padding-left: 7%;
+  padding-left: 5%;
   color: var(--color);
   display: flex;
   align-items: center;
@@ -102,7 +101,7 @@ button:hover {
 
 .NavbarLinks {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding-right: 7%;
   font-weight: 500;
