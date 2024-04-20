@@ -12,12 +12,13 @@ const Home = () => {
                 <Col md={8} className="HomeText text-center mt-5">
                     <h1>I'M <strong>Kirubakaran</strong></h1>
                     <Type />
+                    <img className="ms-end" src="../assets/developer.png" alt="" width="200px" height="200px" />
                     <div className="mt-3">
                         <Link to="/About">
-                            <Button variant="primary" className="mr-2">About Me <BsPerson /></Button>
+                            <Button variant="primary" className="me-2">About Me <BsPerson /></Button>
                         </Link>
                         <Link to="/Contact">
-                            <Button variant="primary" className="ml-2">Contact <CgPhone /></Button>
+                            <Button variant="primary">Contact <CgPhone /></Button>
                         </Link>
                     </div>
                 </Col>

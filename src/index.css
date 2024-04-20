@@ -91,12 +91,16 @@ button:hover {
 
 .Logo {
   letter-spacing: 2px;
-  padding-left: 5%;
+  padding-left: 2%;
   color: var(--color);
   display: flex;
   align-items: center;
   text-align: center;
   cursor: pointer;
+}
+
+.custom-logo{
+  margin-left: 5%;
 }
 
 .NavbarLinks {

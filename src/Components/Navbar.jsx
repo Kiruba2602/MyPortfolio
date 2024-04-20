@@ -4,6 +4,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 import { AiOutlineHome } from 'react-icons/ai';
 import { BsPerson, BsCodeSlash } from 'react-icons/bs';
 import { CgPhone } from 'react-icons/cg';
+import Logo from './Logo.jsx';
 import _ from 'lodash';
 
 const NavComponent = () => {
@@ -26,12 +27,13 @@ const NavComponent = () => {
 
   return (
     <Navbar expanded={expanded} expand="lg" className={`Navbar ${navbarBlur ? 'blur' : ''}`} fixed="top">
+      <Logo />
       <Navbar.Brand href="/" className="Logo fs-3">
         Kirubakaran
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={showMenu} />
       <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="mr-auto NavbarLinks">
+        <Nav className="ms-auto justify-content-around NavbarLinks">
           <Nav.Link as={Link} to="/" onClick={() => setExpanded(false)}>
             <AiOutlineHome /> Home
           </Nav.Link>
