@@ -1,16 +1,20 @@
 import React from 'react';
 import ProjectBox from './ProjectBox';
 import Littlelemon from '../images/LittleLemon.png';
-import Todolist from '../images/todolist.jpeg';
+import Todolist from '../images/todolist.png';
 import { Container, Row, Col } from 'react-bootstrap';
 
 const Projects = () => {
   return (
     <Container>
       <h1 className="projectHeading">My <strong>Projects</strong></h1>
-      <Row>
-        <Col md={6}><ProjectBox projectPhoto={Littlelemon} projectName="LittleLemonApi" /></Col>
-        <Col md={6}><ProjectBox projectPhoto={Todolist} projectName="TodoList" /></Col>
+      <Row className="project">
+        <Col sm={12} md={6} lg={4} className='justify-content-center mb-2 mx-4'>
+          <ProjectBox projectPhoto={Littlelemon} projectLink={"https://github.com/Kiruba2602/Little-Lemon-API"} projectSite={"https://github.com/Kiruba2602/Little-Lemon-API"} projectName="LittleLemonApi"/>
+        </Col>
+        <Col sm={12} md={6} lg={4}>
+          <ProjectBox projectPhoto={Todolist} projectLink={"https://github.com/Kiruba2602/React-project"} projectSite={"https://kiruba2602.github.io/React-project/"} projectName="TodoList" />
+        </Col>
       </Row>
     </Container>
   );

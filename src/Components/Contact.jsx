@@ -36,7 +36,7 @@ const Contact = () => {
             <Form.Label>Message</Form.Label>
             <Form.Control as="textarea" rows={3} name="message" value={formData.message} onChange={handleChange} required />
           </Form.Group>
-          <Button variant="primary" type="submit">Submit <FaCheck /></Button>
+          <Button variant="primary" type="submit" className='justify-content-center w-25'>Submit <FaCheck /></Button>
         </Form>
       )}
     </Container>

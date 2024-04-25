@@ -8,10 +8,10 @@ const About = () => {
     <>
       <Container className="AboutPage">
         <Row className="align-items-center">
-          <Col>
+          <Col className="fs-2">
             <h1>Get to <strong>know</strong> me!</h1>
             <p>
-              Hi, my name is <strong>Kirubakaran</strong>. I'm a Full Stack Developer and also certified AWS Cloud Practitioner.
+              Hi,I'm a Full Stack Developer and also certified AWS Cloud Practitioner.
               <br/>
               I love to create Full stack projects and have an interest to explore more cloud related/emerging technologies.
             </p>
