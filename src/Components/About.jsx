@@ -15,7 +15,7 @@ const About = () => {
               <br/>
               I love to create Full stack projects and have an interest to explore more cloud related/emerging technologies.
             </p>
-            <Button variant="primary" href='resume.pdf' download>Download Resume <FaFileDownload /></Button>
+            <Button variant="primary" href='https://drive.google.com/file/d/1lJffWo9N9e08MGxUhnOysvDuhCW6O4Cu/view?usp=sharing' download>Download Resume <FaFileDownload /></Button>
           </Col>
         </Row>
       </Container>
