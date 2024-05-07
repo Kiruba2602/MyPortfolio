@@ -30,7 +30,7 @@ const NavComponent = () => {
     <Navbar expanded={expanded} expand="lg" className={`Navbar ${navbarBlur ? 'blur' : ''}`} fixed="top">
       <Logo />
       <Navbar.Brand href="/myportfolio/" className="Logo fs-3">
-        Kirubakaran
+        KB
       </Navbar.Brand>
       <div className="Hamburger" onClick={toggleNavbar}>
         <span className={`bar ${expanded ? 'barOne' : ''}`}></span>

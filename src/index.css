@@ -110,6 +110,7 @@ button:hover {
   padding-right: 7%;
   font-weight: 500;
   font-size: 22px;
+  gap: 20px;
 }
 
 .NavbarLinks li {
@@ -329,8 +330,8 @@ button:hover {
 }
 
 .SkillBox {
-  width: max(15%, 150px);
-  height: 150px;
+  width: max(15%, 80px);
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -358,7 +359,7 @@ button:hover {
     font-size: 16px;
   }
   .Avatar {
-    width: 200px;
+    width: 500px;
     margin-bottom: 25px;
   }
 
@@ -423,7 +424,6 @@ footer {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
-  position: relative;
   bottom: 0px;
   text-align: center;
 }
@@ -437,12 +437,12 @@ footer h4 {
   display: flex;
   width: 180px;
   font-size: 18px;
-  justify-content: space-evenly;
 }
 
 .footerLinks a {
   text-decoration: none;
   color: inherit;
+  left: 50%;
 }
 .footerLinks a:hover {
   scale: 1.5;
@@ -461,7 +461,7 @@ footer h4 {
   margin-top: 50%;
   padding: 20px;
   border-radius: 10px;
-  max-width: 400px;
+  max-width: 300px;
   margin: auto;
 }
 

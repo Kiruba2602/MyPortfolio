@@ -7,7 +7,6 @@ import {
     FaBootstrap,
     FaHtml5,
     FaCss3,
-    FaPython,
     FaAws
  } from "react-icons/fa";
  import { DiJavascript1 } from "react-icons/di";
@@ -21,7 +20,6 @@ const Skills = ({ skill }) => {
     JavaScript: <DiJavascript1 />,
     React: <FaReact />,
     Java: <FaJava />,
-    Python: <FaPython />,
     Node: <FaNodeJs />,
     SQL: <DiMysql />,
     AWS: <FaAws />
